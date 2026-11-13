@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050e51">
+  <meta name="description" content="Anurag Patil — Software Engineering (Honours) student at UNSW Sydney. Full-stack development, AI agents and automation.">
+  <meta property="og:title" content="Anurag Patil — Software Engineering">
+  <meta property="og:description" content="Selected work in full-stack development, AI agents and automation.">
+  <meta property="og:type" content="website">
+  <title>Anurag Patil — Software Engineering</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/gsap.min.js" defer></script>
+  <script src="assets/ScrollTrigger.min.js" defer></script>
+  <script src="assets/lenis.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="custom-cursor" aria-hidden="true"></div>
+  <main id="main">
+    <section class="hero shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-role hero-enter">Software Engineering · UNSW Sydney</p>
+        <h1 id="hero-title"><span class="name-line"><span>Anurag</span></span><span class="name-line"><span>Patil</span></span></h1>
+        <p class="hero-description hero-enter">Full-stack development,<br>AI agents and automation.</p>
+        <div class="hero-links hero-enter">
+          <a class="button magnetic" href="assets/Anurag-Patil-Resume.pdf" download>Resume <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#download"/></svg></a>
+          <a class="icon-link" href="https://github.com/rag-gg" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#brand-github"/></svg></a>
+          <a class="social-text" href="https://www.linkedin.com/in/anurag-patil-a76a91259/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a>
+          <a class="icon-link" href="mailto:z5596457@ad.unsw.edu.au" aria-label="Email Anurag"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#mail"/></svg></a>
+        </div>
+      </div>
+      <div class="tech-cloud" aria-label="Technologies: Python, TypeScript, React, n8n, Docker and Next.js">
+        <div class="cloud-light" aria-hidden="true"></div>
+        <div class="tech-cloud-inner">
+          <div class="floating-tech tech-python"><svg aria-hidden="true"><use href="assets/icons.svg#brand-python"/></svg><span>Python</span></div>
+          <div class="floating-tech tech-typescript"><svg aria-hidden="true"><use href="assets/icons.svg#brand-typescript"/></svg><span>TypeScript</span></div>
+          <div class="floating-tech tech-react"><svg aria-hidden="true"><use href="assets/icons.svg#brand-react"/></svg><span>React</span></div>
+          <div class="floating-tech tech-n8n"><svg aria-hidden="true"><use href="assets/icons.svg#brand-n8n"/></svg><span>n8n</span></div>
+          <div class="floating-tech tech-docker"><svg aria-hidden="true"><use href="assets/icons.svg#brand-docker"/></svg><span>Docker</span></div>
+          <div class="floating-tech tech-next"><svg aria-hidden="true"><use href="assets/icons.svg#brand-nextdotjs"/></svg><span>Next.js</span></div>
+        </div>
+      </div>
+      <div class="hero-recognition">
+        <a class="recognition-card" href="#pearly"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#award"/></svg><span><strong>SENG2021 Top Teams Recognition</strong><small>Pearly · UNSW</small></span></a>
+        <a class="recognition-card" href="#align"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#trophy"/></svg><span><strong>Atlassian × Mistral AI Finalist</strong><small>Align · Hackathon</small></span></a>
+      </div>
+    </section>
+
+    <section class="projects shell" id="work" aria-labelledby="projects-title">
+      <h2 class="section-title reveal" id="projects-title">Projects</h2>
+      <article class="project" id="pearly" aria-labelledby="pearly-title">
+        <div class="project-visual pearly-visual reveal-visual">
+          <div class="pearly-flow mockup-parallax" role="img" aria-label="Pearly workflow: import CSV or JSON, process with a REST API and generate UBL invoices">
+            <div class="flow-input"><svg class="diagram-icon" aria-hidden="true"><use href="assets/icons.svg#file-text"/></svg><span>CSV / JSON</span></div>
+            <div class="flow-connector connector-one" aria-hidden="true"></div>
+            <div class="api-node"><svg class="diagram-icon" aria-hidden="true"><use href="assets/icons.svg#server"/></svg><strong>REST API</strong><small>Authenticated processing</small></div>
+            <div class="flow-connector connector-two" aria-hidden="true"></div>
+            <div class="invoice-document"><div class="document-head"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#file-text"/></svg><span>Invoice</span><span class="document-badge">UBL</span></div><div class="document-lines"><i></i><i></i><i></i></div><div class="document-table"><span>DESCRIPTION</span><span>AMOUNT</span><i></i><i></i><i></i><i></i></div><div class="document-complete"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#check"/></svg>Ready to export</div></div>
+            <div class="database-node"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#database"/></svg><span>PostgreSQL</span></div>
+          </div>
+          <span class="visual-caption">Workflow illustration</span>
+        </div>
+        <div class="project-copy"><span class="project-kind reveal">Full-stack SaaS</span><h3 class="reveal" id="pearly-title">Pearly</h3><span class="award-badge reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#award"/></svg>SENG2021 Top Teams Recognition</span><p class="reveal">An e-invoicing platform with CSV/JSON-to-UBL generation, secure authentication, AI summaries and Salesforce synchronisation.</p><p class="contribution reveal">Contributed to platform architecture and REST API design. Recognised by the UNSW Software Engineering Degree Director.</p><div class="tags reveal"><span>TypeScript</span><span>Next.js</span><span>Node.js</span><span>PostgreSQL</span><span>AWS</span></div><button class="text-link reveal" data-open="pearly-dialog">Project details <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></button></div>
+      </article>
+
+      <article class="project project-reverse" id="align" aria-labelledby="align-title">
+        <div class="project-visual align-visual reveal-visual"><div class="align-workflow mockup-parallax" role="img" aria-label="Align connects Slack conversations and Confluence documentation through Mistral AI to flag potential conflicts">
+          <svg class="workflow-lines" viewBox="0 0 600 440" aria-hidden="true"><path d="M130 150H245Q265 150 265 170V190H300M470 150H355Q335 150 335 170V190H300M300 255V315"/><path class="moving-line" d="M130 150H245Q265 150 265 170V190H300M470 150H355Q335 150 335 170V190H300M300 255V315"/></svg>
+          <div class="service-node slack-service"><svg aria-hidden="true"><use href="assets/icons.svg#brand-slack"/></svg><strong>Slack</strong><span>Conversations</span></div>
+          <div class="service-node confluence-service"><svg aria-hidden="true"><use href="assets/icons.svg#brand-confluence"/></svg><strong>Confluence</strong><span>Documentation</span></div>
+          <div class="mistral-node"><svg aria-hidden="true"><use href="assets/icons.svg#brand-mistralai"/></svg><span>Mistral AI</span></div>
+          <div class="conflict-card"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#circle-alert"/></svg><span>Potential conflict detected</span></div>
+        </div><span class="visual-caption">Workflow illustration</span></div>
+        <div class="project-copy"><span class="project-kind reveal">AI agents</span><h3 class="reveal" id="align-title">Align</h3><span class="award-badge reveal"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#trophy"/></svg>Atlassian × Mistral AI Hackathon Finalist</span><p class="reveal">A team-built hackathon prototype that compares Slack commitments with Confluence documentation to identify potential conflicts.</p><div class="tags reveal"><span>Python</span><span>Mistral AI</span><span>Streamlit</span><span>Slack API</span><span>Confluence API</span></div><a class="text-link reveal" href="https://github.com/LordAlucard229/Align_2" target="_blank" rel="noopener noreferrer">View final submission <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a></div>
+      </article>
+
+      <article class="project" id="fitness" aria-labelledby="fitness-title">
+        <div class="project-visual fitness-visual reveal-visual"><div class="fitness-showcase mockup-parallax">
+          <div class="automation-node automation-n8n"><svg aria-hidden="true"><use href="assets/icons.svg#brand-n8n"/></svg><span>n8n</span></div><div class="automation-node automation-python"><svg aria-hidden="true"><use href="assets/icons.svg#brand-python"/></svg><span>Python</span></div><div class="automation-node automation-docker"><svg aria-hidden="true"><use href="assets/icons.svg#brand-docker"/></svg><span>Docker</span></div>
+          <div class="telegram-phone"><div class="phone-notch" aria-hidden="true"></div><div class="telegram-header"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#chevron-left"/></svg><div><strong>Ramesh Assistant</strong><small>Telegram bot</small></div><svg class="icon telegram-brand" aria-hidden="true"><use href="assets/icons.svg#brand-telegram"/></svg></div><div class="telegram-chat"><div class="chat-outgoing">I ate 2 bananas</div><div class="chat-incoming"><div class="meal-name"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#utensils"/></svg>2 bananas</div><div class="calorie-estimate"><strong>140</strong><span>estimated kcal</span></div><div class="macro-grid"><span><b>1g</b>Protein</span><span><b>35g</b>Carbs</span><span><b>0g</b>Fat</span></div><p>The spreadsheet has been updated with this meal.</p><small>Sent automatically with n8n</small></div><div class="chat-outgoing second-meal">I ate 4 eggs</div></div><div class="telegram-input"><span>Message</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#send"/></svg></div></div>
+        </div><span class="visual-caption">Telegram UI recreated from supplied screenshots</span></div>
+        <div class="project-copy"><span class="project-kind reveal">Personal automation</span><h3 class="reveal" id="fitness-title">AI Fitness Coach</h3><p class="reveal">A personal Telegram assistant for food-photo and text meal logging, estimated calories and macros, daily summaries and gym reminders.</p><p class="contribution reveal">Built with Python, n8n, Docker and APIs.</p><div class="tags reveal"><span>Python</span><span>n8n</span><span>Docker</span><span>Telegram</span><span>APIs</span></div><button class="text-link reveal" data-open="fitness-dialog">View workflow <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></button></div>
+      </article>
+    </section>
+
+    <section class="experience shell" id="about" aria-labelledby="experience-title"><div class="experience-main"><h2 class="section-title reveal" id="experience-title">Experience</h2><div class="experience-entry reveal"><svg class="experience-icon" aria-hidden="true"><use href="assets/icons.svg#satellite"/></svg><div><h3>Communications Systems<br>& Simulation Lead</h3><p class="organisation">AUStronauts · UNSW ACSER</p><span class="date">February 2026 — Present</span><p class="experience-description">Developing CubeSat UHF system models and Python automation for simulation analysis and link-budget calculations.</p></div></div><div class="education-entry reveal"><svg class="experience-icon" aria-hidden="true"><use href="assets/icons.svg#graduation-cap"/></svg><div><h3>Software Engineering (Honours)</h3><p class="organisation">UNSW Sydney · 2024 — Present</p></div></div></div><div class="skills"><h2 class="section-title reveal">Skills</h2><div class="skill-grid"><div class="skill reveal"><svg aria-hidden="true"><use href="assets/icons.svg#brand-python"/></svg><span>Python</span></div><div class="skill reveal"><svg aria-hidden="true"><use href="assets/icons.svg#brand-typescript"/></svg><span>TypeScript</span></div><div class="skill reveal"><svg aria-hidden="true"><use href="assets/icons.svg#brand-react"/></svg><span>React / Next.js</span></div><div class="skill reveal"><svg aria-hidden="true"><use href="assets/icons.svg#brand-n8n"/></svg><span>n8n / Make</span></div><div class="skill reveal"><svg aria-hidden="true"><use href="assets/icons.svg#brand-docker"/></svg><span>Docker / AWS</span></div><div class="skill reveal"><svg aria-hidden="true"><use href="assets/icons.svg#brand-postgresql"/></svg><span>PostgreSQL</span></div></div></div></section>
+
+    <section class="contact shell" id="contact" aria-labelledby="contact-title"><h2 class="section-title reveal" id="contact-title">Contact</h2><a class="email-link reveal" href="mailto:z5596457@ad.unsw.edu.au">z5596457@ad.unsw.edu.au<svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a><div class="contact-links reveal"><a href="https://github.com/rag-gg" target="_blank" rel="noopener noreferrer">GitHub <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a><a href="https://www.linkedin.com/in/anurag-patil-a76a91259/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"/></svg></a><a href="assets/Anurag-Patil-Resume.pdf" download>Resume <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#download"/></svg></a></div></section>
+  </main>
+  <dialog class="project-dialog" id="pearly-dialog" aria-labelledby="pearly-dialog-title"><button class="dialog-close" aria-label="Close project details"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#x"/></svg></button><h2 id="pearly-dialog-title">Pearly</h2><div class="dialog-award"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#award"/></svg>SENG2021 Top Teams Recognition</div><p>Recognised by the UNSW Software Engineering Degree Director for technical execution, API design, teamwork, adaptability and user-focused development.</p><div class="workflow"><div><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#file-text"/></svg><strong>Import</strong><p>CSV / JSON data</p></div><div><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#server"/></svg><strong>Process</strong><p>Authenticated REST API</p></div><div><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#download"/></svg><strong>Generate</strong><p>UBL invoices</p></div></div><p>I contributed to platform architecture and API design. The stack includes TypeScript, Express, Next.js, PostgreSQL, Docker and AWS, with OpenAI and Salesforce integrations.</p></dialog>
+  <dialog class="project-dialog" id="fitness-dialog" aria-labelledby="fitness-dialog-title"><button class="dialog-close" aria-label="Close project details"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#x"/></svg></button><h2 id="fitness-dialog-title">AI Fitness Coach</h2><p>A personal automation connecting Telegram, n8n, Python and APIs, with Docker supporting the setup.</p><div class="workflow"><div><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#brand-telegram"/></svg><strong>Send</strong><p>Meal photos or text</p></div><div><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#brand-n8n"/></svg><strong>Automate</strong><p>n8n, Python and APIs</p></div><div><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#calendar-days"/></svg><strong>Track</strong><p>Estimates and daily summaries</p></div></div><p>Automated gym reminders provide accountability, while meal logging tracks estimated calories and macronutrients.</p></dialog>
+</body>
+</html>
